@@ -1,0 +1,6 @@
+Display Property
+{
+    1.block  (Defult)
+    2.inline  (All element ek hi line me but inki width and height arject nhi kar sakte)
+    3.inline -block (Width and Height arject kar sakte h)
+}

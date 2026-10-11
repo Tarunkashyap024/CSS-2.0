@@ -1,0 +1,8 @@
+Position{
+
+    1.static -> Default
+    2.relative -> Move kar sakte h 
+    3. absolute -> pahle ek parent create kro fir absolute se element ko kahi bhi move kro
+    4.fixed -> ek jagah fix hota hota
+    5.sticky -> page ko jitna bhi scroll kro jahan rakha h wahi rahega 
+}

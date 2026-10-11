@@ -1,0 +1,87 @@
+*{
+    box-sizing: border-box;
+    margin:0px;
+    padding:0px;
+
+}
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: antiquewhite;
+    margin:0px;
+    padding:0px;
+}
+.Sticky-header{
+    position:sticky;
+    top:0;
+    background-color: rgb(83, 203, 185);
+    color:antiquewhite;
+    border-bottom: 5px solid darkcyan;
+    padding:20px;
+    text-align: center;
+
+}
+.profile-card{
+    width:350px;
+    min-height:400px;
+    background: white;
+    border: 2px solid #ddd;
+    border-radius:8px;
+    margin:60px auto;
+    padding:20px;
+    position: relative;
+    overflow: auto;
+}
+.profile-image{
+    width:170px;
+    height: 190px;
+    display:block;
+    margin:0 auto 15px auto;
+    border:#ddd 3px solid;
+    border-radius: 70px;
+}
+.name{
+    text-align: center;
+    margin-bottom:20px;
+   
+    color:#023e8a;
+}
+.bio{
+    text-align: center;
+    font-size: 14px;
+    color:#555;
+    margin-bottom: 20px;
+    padding:0 10px;
+    overflow:auto;
+
+}
+.stats{
+    text-align: center;
+}
+.stat{
+    display: inline-block;
+    width: 80px;
+    margin:5px;
+    padding:10px;
+    background: #caf0f8;
+    border-radius: 5px;
+}
+.stat h3{
+    color:rgb(79, 179, 183);
+    margin-bottom:5px;
+
+}
+.contact-btn{
+    position:fixed;
+    bottom:20px;
+    right: 20px;
+    background: #00b4d8;
+    color:white;
+    padding: 12px 20px;
+    border-radius:5px;
+    cursor: pointer;
+    border:none;
+
+}
+.contact-btn:hover{
+    background:#023e8a;
+}

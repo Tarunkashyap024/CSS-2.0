@@ -1,0 +1,8 @@
+Learning for this lecture ->
+
+1.Height
+2.width
+3.min-width
+4.min-Height
+5.overflow
+6.border-radius
